@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153A7C2927996A750008A8FF /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A7C2827996A750008A8FF /* GalleryViewController.swift */; };
+		153A7C2B279984F30008A8FF /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A7C2A279984F30008A8FF /* Cell.swift */; };
 		154CD28C27983D900085E2E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CD28B27983D900085E2E5 /* AppDelegate.swift */; };
 		154CD28E27983D900085E2E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CD28D27983D900085E2E5 /* SceneDelegate.swift */; };
 		154CD29027983D900085E2E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CD28F27983D900085E2E5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153A7C2827996A750008A8FF /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		153A7C2A279984F30008A8FF /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		154CD28827983D900085E2E5 /* qr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154CD28B27983D900085E2E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		154CD28D27983D900085E2E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 			children = (
 				154CD28B27983D900085E2E5 /* AppDelegate.swift */,
 				154CD28D27983D900085E2E5 /* SceneDelegate.swift */,
+				153A7C2827996A750008A8FF /* GalleryViewController.swift */,
 				154CD28F27983D900085E2E5 /* ViewController.swift */,
 				154CD29127983D900085E2E5 /* Main.storyboard */,
 				154CD29427983D910085E2E5 /* Assets.xcassets */,
 				154CD29627983D910085E2E5 /* LaunchScreen.storyboard */,
 				154CD29927983D910085E2E5 /* Info.plist */,
+				153A7C2A279984F30008A8FF /* Cell.swift */,
 			);
 			path = qr;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				154CD29027983D900085E2E5 /* ViewController.swift in Sources */,
 				154CD28C27983D900085E2E5 /* AppDelegate.swift in Sources */,
+				153A7C2B279984F30008A8FF /* Cell.swift in Sources */,
 				154CD28E27983D900085E2E5 /* SceneDelegate.swift in Sources */,
+				153A7C2927996A750008A8FF /* GalleryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
